@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class HandleEvent extends Component {
 
   showMessage = () => {
-    alert('Hello')
+    alert('Hello sđfd')
   }
 
   sayHello = (name) => {
@@ -25,7 +25,6 @@ export default class HandleEvent extends Component {
           <button className='btn btn-primary' onclick={() =>{
             this.sayHello('Hoàng Vê');
           }}>Say hello</button>
-
       </div>
     )
   }
